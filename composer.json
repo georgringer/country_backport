@@ -1,0 +1,20 @@
+{
+	"name": "georgringer/country-backport",
+	"type": "typo3-cms-extension",
+	"description": "Backport of TYPO3 v12 country list to TYPO3 v11",
+	"homepage": "https://github.com/georgringer/country_backport",
+	"license": ["GPL-2.0-or-later"],
+	"require": {
+		"typo3/cms-backend": "^10.4 || ^11.5"
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "country_backport"
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"GeorgRinger\\CountryBackport\\": "Classes/"
+		}
+	}
+}
