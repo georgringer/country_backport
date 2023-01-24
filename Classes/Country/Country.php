@@ -23,7 +23,7 @@ namespace GeorgRinger\CountryBackport\Country;
  */
 class Country
 {
-    protected const LABEL_FILE = 'EXT:core/Resources/Private/Language/Iso/countries.xlf';
+    protected const LABEL_FILE = 'EXT:country_backport/Resources/Private/Language/Iso/countries.xlf';
 
     public function __construct(
         string $alpha2,
