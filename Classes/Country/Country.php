@@ -25,13 +25,20 @@ class Country
 {
     protected const LABEL_FILE = 'EXT:country_backport/Resources/Private/Language/Iso/countries.xlf';
 
+    protected string $alpha2;
+    protected string $alpha3;
+    protected string $name;
+    protected string $numeric;
+    protected string $flag;
+    protected string $officialName = '';
+
     public function __construct(
         string $alpha2,
         string $alpha3,
         string $name,
         string $numeric,
         string $flag,
-        $officialName = ''
+        string $officialName = null
     ) {
         $this->alpha2 = $alpha2;
         $this->alpha3 = $alpha3;
