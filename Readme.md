@@ -35,6 +35,6 @@ $france = $countryProvider->getByAlpha3IsoCode('FRA');
 $filter = new \GeorgRinger\CountryBackport\Country\CountryFilter();
 $filter->setExcludeCountries(['DE', 'AT']);
 $filter->setOnlyCountries(['FR', 'IT', 'AT']);
-$list =$countryProvider->getFiltered($filter);
+$list = $countryProvider->getFiltered($filter);
 ```
 
