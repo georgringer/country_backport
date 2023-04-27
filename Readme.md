@@ -5,7 +5,7 @@ Read all about it at https://github.com/TYPO3/typo3/blob/main/typo3/sysext/core/
 
 ## Installation
 
-Either use `composer req georgringer/country_backport` or download the extension from the TER
+Either use `composer req georgringer/country-backport` or download the extension from the TER
 
 ## Usage
 
